@@ -9,8 +9,8 @@ h1 {
     text-align: center;
 }
 footer {
-    color: black;
-        font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+        font-size: 18px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         border: 1px solid white;
         border-radius: 25px;
