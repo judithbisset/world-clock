@@ -11,6 +11,12 @@ let capetownDateElement = capetownElement.querySelector(".date");
 let capetownTimeElement = capetownElement.querySelector(".time");
 capetownDateElement.innerHTML = moment().tz("Africa/Johannesburg").format("MMMM Do, YYYY");
 capetownTimeElement.innerHTML = moment().tz("Africa/Johannesburg").format("h:mm:ss [<small>]A[</small>]");
+// Hongkong
+let hongkongElement = document.querySelector("#hongkong");
+let hongkongDateElement = hongkongElement.querySelector(".date");
+let hongkongTimeElement = hongkongElement.querySelector(".time");
+hongkongDateElement.innerHTML = moment().tz("Hongkong").format("MMMM Do, YYYY");
+hongkongTimeElement.innerHTML = moment().tz("Hongkong").format("h:mm:ss [<small>]A[</small>]");
 }
 
 function updateCity(event) {
